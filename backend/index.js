@@ -27,14 +27,14 @@ const obj=req.body;
 // }
 
 
-    console.log(problemLink,tag);
+    
 });
 app.get("/delete",(req,res)=>{
 
 
     res.send("this will delete");
 })
-app.get("all",(req,res)=>{
+app.get("/all",(req,res)=>{
 
     res.send("get all");
 })
